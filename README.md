@@ -14,16 +14,16 @@ Vision Transformer（ViT）架构在图像分类任务中的应用。我们提�
 ```
 $ conda env create --name simclr --file env.yml
 $ conda activate simclr
-$ python run.py
+$ python SP-run.py
 ```
 
 ## Config file
 
-Before running SimCLR, make sure you choose the correct running configurations. You can change the running configurations by passing keyword arguments to the ```run.py``` file.
+Before running SimCLR, make sure you choose the correct running configurations. You can change the running configurations by passing keyword arguments to the ```SP-run.py``` file.
 
 ```python
 
-$ python run.py -data ./datasets --dataset-name cifar10 --log-every-n-steps 1 --epochs 100 
+$ python SP-run.py -data ./datasets --dataset-name cifar10 --log-every-n-steps 1 --epochs 100 
 
 ```
 
